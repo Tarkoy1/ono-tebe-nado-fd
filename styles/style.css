@@ -1,1 +1,11 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+
+}
+.logo {
+    display: block;
+    width:min-content;
+    height: min-content;
+}
