@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +9,43 @@
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  <header>
-    <nav></nav>
-    <a></a>
-    <address></address>
+  <header class="header">
+    <nav class="header_menu">
+      <ul class="header_links_list">
+        <li class="header_links_list_item_no-bullit">
+          <p>главная</p>
+        </li>
+        <li class="header_links_list_item">
+          <a href="#0" class="header_link_active">посмотреть лоты</a>
+        </li>
+        <li class="header_links_list_item">
+          <a href="#0" class="header_link_active">об аукционе</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="header_logo">
+      <img src="./images/logo-black.svg" alt="логотип шапки" class="header_logo_image">
+    </a>
+    <address class="header_address"> 
+      <a href="tel:+9 999 555 5555" class="nomber">+9 999 555 5555</a><br>
+      <a href="mailto:info@sobaka.ge" class="mail">info@sobaka.ge</a>
+      <p>наб. Принсенграхт 263- 265, Амстердам</p>
+    </address>
    </header>
   <main>
-    <cover>
-      <h1> оно тебе надо</h1>
-      <div></div>
-      <description>
-        <p></p>
-        <button></button>
-      </description>
-    </cover>
-    <lots>
+    <section class="cover">
+      <div class="overlay"></div>
+      <h1 class="cover_title">
+        <span class="alignet_text">оно</span>
+        <span class="alignet_text_center">тебе</span>
+        <span class="alignet_text_right">надо</span>
+      </h1>
+      <div class="description">
+        <h3 class="description_text">аукцион вещей, в которые никто не верил</h3>
+        <button class="button">сделать ставку</button>
+      </div>
+    </section>
+    <section class="lots">
       <h2>лоты</h2>
       <ul>
         <li>
@@ -43,16 +65,16 @@
         </li>
       </ul>
       <a href="#0">посмотреть больше</a>
-    </lots>
-    <about>
-      <div></div>
-      <div>
+    </section>
+    <section class="about">
+      <section></section>
+      <section>
         <h2></h2>
         <p></p> 
-      </div>
-    </about>
+      </section>
+    </section>
   </main>
-  <footer>
+  <footer class="footer">
     <address></address>
     <menu></menu>
     <social></social>
