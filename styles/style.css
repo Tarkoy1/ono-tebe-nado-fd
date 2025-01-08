@@ -12,15 +12,12 @@
     height: 22px;
     top: 133px;
     left: 50px;
-    gap: 0px;
-    opacity: 0px;
-
 }
 
 .header_links_list {
     list-style: circle;
     display: flex;
-    gap: 23px;
+    gap: 32px;
     justify-self: center;
     flex-direction: row;
     line-height: 21.13px;
@@ -127,18 +124,22 @@ address {
 }
 
 .description_text {
-    width: 637px;
-    height: 28px;
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
     word-spacing: 27px;
+    text-transform: uppercase;
 }
 
 .button {
     background-color: transparent;
     color: inherit;
-
+    width: 256px;
+    height: 51px;
+    border: 1px solid #fff;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
 
 }
 
@@ -148,8 +149,7 @@ address {
     height: 723px;
     top: 1230px;
     left: 24px;
-    gap: 0px;
-    opacity: 0px;
+
 }
 
 .about {
