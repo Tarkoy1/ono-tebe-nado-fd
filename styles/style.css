@@ -71,7 +71,7 @@ address {
     background-position: center;
     position: relative;
     color: #fff;
-    z-index: -2;
+    z-index: 0;
     margin-bottom: 180px;
 }
 
@@ -79,7 +79,6 @@ address {
     position: absolute;
     inset: 0;
     background-color: rgba(0,0,0,0.5);
-    z-index: 1;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -98,7 +97,7 @@ address {
     line-height: 115px;
     letter-spacing: 30px;
     text-transform: uppercase;
-    z-index: 0;
+    z-index: 1;
 }
 
 .alignet_text {
@@ -119,8 +118,6 @@ address {
     align-items: flex-end;
     justify-content:space-evenly;
     margin-top: 106px;
-    
-
 }
 
 .description_text {
@@ -140,32 +137,109 @@ address {
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
-
 }
 
+            /* БЛОК С ЛОТАМИ*/
 
 .lots {
-    width: 1052px;
     height: 723px;
-    top: 1230px;
-    left: 24px;
+    padding: 0 24px;
+    margin-bottom: 120px;
+}
 
+.lots_heading {
+    width: 121px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    line-height: 46.96px;
+}
+
+.lots_card_list{
+    display: flex;
+    justify-content: wrap;
+    gap: 25px;
+    margin-top: 27px;
+    list-style: none;
+}
+
+.lots_card_list_item {
+    width: 334px;
+    height: 596px;
+}
+
+.lots_card_link {
+    text-decoration: none;
+}
+
+.card {
+    width: 334px;
+    height: 596px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 40px;
+    z-index: 0;
+}
+
+.card_title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.4px;
+    text-decoration: underline solid;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.card_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    z-index: 1;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ /* Пересмотреть позиционирование*/
+.lots_look_more_link {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 23.48px;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
 }
 
 .about {
-    width: 1052px;
-    height: 595px;
-    top: 2073px;
-    left: 24px;
-    gap: 0px;
-    opacity: 0px;    
+    padding: 0 24px;
+
 }
 
 .footer {
     width: 1100px;
     height: 180px;
     top: 2848px;
-    gap: 0px;
-    opacity: 0px;
+    background-color: aquamarine;
     
 }
