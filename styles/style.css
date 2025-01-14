@@ -158,7 +158,7 @@
     line-height: 46.96px;
 }
 
-.lots_card_list{
+.lots_card_list {
     display: flex;
     justify-content: wrap;
     gap: 25px;
@@ -243,7 +243,7 @@
 
 .about_column {
     display: grid;
-    grid-template-columns: 359px 1fr; 
+    grid-template-columns: 359px 1fr;
 }
 
 .about_logo {
@@ -280,7 +280,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    margin-bottom: 24px;    
+    margin-bottom: 24px;
 }
 
 /* Подвал*/
