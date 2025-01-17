@@ -162,14 +162,9 @@
     padding-bottom: 30px;
 }
 
-.lots_card_list_item {
-    
-}
-
 .lots_card_link {
     text-decoration: none;
 }
-
 
 .card {
     width: 334px;
@@ -263,7 +258,7 @@
     font-weight: 700;
     text-transform: uppercase;
     line-height: 46.96px;
-    margin-bottom: 100px;    
+    margin-bottom: 100px;
 }
 
 
