@@ -103,8 +103,8 @@
 
 .alignet_text_right {
     display: block;
-    text-align: center;
-    margin-left: 615px;
+    text-align: right;
+    margin-right: -30px;
 }
 
 .description {
@@ -138,13 +138,11 @@
     /* БЛОК С ЛОТАМИ*/
 
 .lots {
-    min-height: 723px;
     padding: 0 24px;
     margin-bottom: 120px;
 }
 
 .lots_heading {
-    min-width: 121px;
     font-weight: 700;
     font-size: 40px;
     padding-left: 40px;
@@ -162,7 +160,7 @@
     padding-bottom: 30px;
 }
 
-.lots_card_link {
+.card_link {
     text-decoration: none;
 }
 
@@ -281,6 +279,7 @@
 
 .footer_address {
     max-width: 264.57px;
+    font-size: 18px;
 }
 
 .footer_menu_list {
